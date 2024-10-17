@@ -1,0 +1,247 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow-x: hidden; */
+}
+.head{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+}
+.head-img{
+    height: 75px;
+}
+.address{
+    position: absolute;
+    left: 300px;
+}
+
+.top,.top1{
+    padding-top: 10px;
+}
+input[type="search"]{
+    width: 530px;
+}
+select, input[type="search"]{
+    height: 35px;
+}
+select, input[type="search"],.sh{
+    border: 0px;
+}
+.searchbar{
+
+    padding: 5px 0px 0px 0px;
+    width: 750px;
+    margin-left: 250px;
+    display: flex;  
+}
+.sh{
+    background-color: goldenrod;
+    padding-top: 6px;
+    height: 29px;
+    width: 35px;
+    text-align: center; 
+}
+.top,.top1{
+    color: inherit;
+    text-decoration: none;
+}
+.drag select{
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.sh{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.nav{
+    height: 43px;
+    background-color: #384351;
+    display: flex;
+    align-items: center;
+}
+.fa-bars{
+    color: #fcfcfc;
+     padding-left: 20px;
+    padding-top: 5px;
+}
+.a{
+    padding-left: 20px;
+}
+#change{
+    padding-left: 700px;
+}
+.a,#change{
+    color: inherit;
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    height: 350px;
+}
+.hero img{
+    height: 350px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    align-items: center;
+    height: 530px;
+    background-color: rgb(245, 239, 239);
+}
+.img1,.img2,.img3,.img4{
+   height: 400px;
+   width: 300px;
+   background-color: white;
+   padding-left: 15px;
+   padding-top: 25px;
+   
+}
+.one img{
+    height: 300px; 
+    width: 95%;
+}
+.shop{
+    color: inherit;
+    color: blue;
+    text-decoration: none;
+}
+.foot{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background-color: #384351 ;
+    color: white;
+    align-items: center;
+    justify-content: center; 
+}
+.footer{
+    display: flex;
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+li{
+    list-style-type: none;
+    color: gray;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+span{
+    color: white;
+}
+
+/* Responsive designn */
+@media (max-width:400px){
+    body{
+        height: auto;
+        width: 400px;
+    }
+    .head-img{
+        height: 50px;
+    }
+    .head{
+        background-color: black;
+        color: white;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 50px;
+    }
+    input[type="search"]{
+        height: 30px;
+        width: 150px;
+        position: absolute;
+        top: 8px;
+        left: 100px; 
+    }
+    .sh{
+        position: absolute;
+        height: 25px;
+        top: 8px;
+        left: 250px;
+    }
+    .address,select{
+        display: none;
+    }
+    .top1{
+        display: none;
+    }
+    .top{
+        position: absolute;
+        top: 6px;
+        left: 300px;
+    }
+    .fa-cart-shopping{
+        position: absolute;
+        left: 350px;
+    }
+    .nav{
+        position: relative;
+    }
+    .fa-bars{
+        position: absolute;
+        left: 1px
+    }
+    .aa{
+       display: flex;
+        padding-left: 20px;
+        font-size:x-small;
+        align-items: center;
+
+    }
+    .a{
+        padding-left: 30px;
+    }
+    .hero{
+        height:100px ;
+    }
+    .hero img{
+        width: 400px;
+        height: 100px;
+    }
+    .container{
+        height: 1900px;
+        width: 400px;
+        background-color: rgb(245, 239, 239);
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    .img1,.img2,.img3,.img4{
+        height: 400px;
+        width: 300px;
+        background-color: white;
+        padding-left: 15px;
+        padding-top: 25px;
+        margin-top: 20px;
+    }
+    .footer{
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+    }
+    
+   
+
+}
